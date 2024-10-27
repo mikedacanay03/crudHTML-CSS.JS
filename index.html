@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD HTML/CSS/JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <fieldset>
+        <legend><h2>FORM</h2></legend>
+        <form action="" id="form">
+            <label for="name">Full Name</label><br>
+            <input type="text" name="name" placeholder="Full Name" id="name" required><br><br>
+
+            <label for="name">Job</label><br>
+            <input type="text" name="job" placeholder="Job" id="job" required><br><br>
+
+            <label for="name">Experience</label><br>
+            <input type="text" name="exp" placeholder="Experience" id="exp" required><br><br>
+
+            <input type="button" value="Submit" id="btn" class="btn" onclick="Submit()">
+            <input type="reset" id="reset" class="reset" value="Reset">
+        </form>
+    </fieldset>
+    <br>
+
+    <!-- show messages -->
+    <div class="msg"></div>
+    <br>
+
+    <fieldset>
+        <legend><h2>Data From Local Storage</h2></legend>
+        <table border="2" id="myTable">
+            <tr>
+                <td class="col">Full Name</td>
+                <td class="col">Job</td>
+                <td class="col">Experience</td>
+                <td class="col">Action</td>
+
+                <!-- <tr id="myTable"> -->
+                    <!-- <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>
+                        <button>Edit</button>
+                        <button>delete</button>
+
+                    </th> -->
+
+                <!-- </tr> -->
+
+            </tr>
+        </table>
+    </fieldset>
+
+    <script src="script.js"></script>
+</body>
+</html>

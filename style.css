@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+fieldset {
+    width: 100%;
+    height: 350px;
+    background: aqua;
+}
+legend {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    /* border: 1px solid red; */
+    width:60%;
+    height:250px;
+    text-align: center;
+    margin: auto;
+    border-radius: 6px;
+    background-color: rgb(2, 2, 243);
+    box-shadow: 2px 3px rgb(29, 29, 68);
+}
+
+#form label {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(3, 255, 255);
+    
+}
+
+#form input {
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    width:30%;
+}
+#form input::placeholder {
+    font-size: 17px;
+}
+
+.btn, .reset {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.btn {
+    background-color: green;
+    color: #fefefe;
+}
+.reset {
+    background-color: red;
+    color: #fee
+}
+
+#myTable {
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid blue;
+    background-color: #fefefe;
+    border-radius: 6px;
+}
+   
+#myTable tr td {
+    width: 20%;
+    padding:10px 0;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
